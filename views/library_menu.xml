@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<odoo>
+    <act_window id="action_library_checkout"
+                name="Checkouts"
+                res_model="library.checkout"
+                view_mode="tree,form,kanban"/>
+
+    <menuitem id="menu_library_checkout"
+              name="Checkout"
+              action="action_library_checkout"
+              parent="library.menu_library"/>
+</odoo>
